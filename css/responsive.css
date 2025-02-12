@@ -6,6 +6,14 @@ Description: Mediplus - Doctor HTML Template.
 Version:	1.1
 ========================================*/   
 /* Tablet Screen */
+@media only screen and (max-width: 768px){
+	.has-sub-dropdown .sub-dropdown {
+		height: 5rem;
+		position: inherit;
+		left: 5%;
+		overflow-y:auto;
+	}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 /* Header Sticky */
 .section{
